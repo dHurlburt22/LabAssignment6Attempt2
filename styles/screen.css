@@ -48,3 +48,9 @@ h1 strong {
 img.about {
     opacity: 0.5;
 }
+
+button{
+    background-color: rgb(223, 122, 223);
+    color:white;
+    font-size: 4rem;
+}
