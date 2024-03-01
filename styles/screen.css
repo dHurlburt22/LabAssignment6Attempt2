@@ -1,36 +1,9 @@
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
+    background: #3c456c;
     padding: 0 40px;
     text-align: center;
-}
-
-nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    list-style-type: none;
-    margin: 0;
-}
-
-nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
 }
 
 h1 {
@@ -50,7 +23,10 @@ img.about {
 }
 
 button{
-    background-color: rgb(223, 122, 223);
+    background-color: rgb(177, 59, 227);
     color:white;
-    font-size: 4rem;
+    font-size: 7rem;
+    border-radius: 25px;
+    border: 15px solid black;
+    margin-top: 280px;
 }
