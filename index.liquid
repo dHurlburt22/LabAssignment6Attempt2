@@ -6,8 +6,10 @@ title: 11ty Boilerplate
 
 <!--<button id="click">Click for Different Names</button> %} -->
 
-<div x-data="{name: ['Dakota', 'Isabella', 'Dacota', 'Napolian', 'Jojo', 'Gyro', 'Johnny', 'MrSmalls', 'Laxus', 'Gojo']}"> 
+<div x-data="{name: ['Dakota', 'Isabella', 'Dacota', 'Napolian', 'Jojo', 'Gyro', 'Johnny', 'MrSmalls', 'Laxus', 'Gojo'], 
+    randomName: 'What Name Shall you Receive?'}"> 
 
-    <button @click="alert(name[Math.floor(Math.random() * 10)])">Click for a Random Name</button>
+    <button @click="randomName = (name[Math.floor(Math.random() * 10)])">Click for a Random Name</button>
+    <h1 x-text= randomName></h1>
 </div>
 
