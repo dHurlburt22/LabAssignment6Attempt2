@@ -1,10 +1,6 @@
-
- 
-
-
     window.onload = function() {
 
-    let nameArray = ['Dakota', 'Isabella', 'Dacota', 'Napolian', 'Jojo', 'Gyro', 'Johnny', 'MrSmalls', 'Laxus', 'Gojo'];
+    const nameArray = ['Dakota', 'Isabella', 'Dacota', 'Napolian', 'Jojo', 'Gyro', 'Johnny', 'MrSmalls', 'Laxus', 'Gojo'];
     let chosenName = nameArray[Math.floor(Math.random() * nameArray.length)];
 
     const click = document.getElementById('click');

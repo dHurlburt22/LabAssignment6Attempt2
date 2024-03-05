@@ -4,4 +4,10 @@ title: 11ty Boilerplate
 ---
 
 
-<button id="click">Click for Different Names</button>
+<!--<button id="click">Click for Different Names</button> %} -->
+
+<div x-data="{name: ['Dakota', 'Isabella', 'Dacota', 'Napolian', 'Jojo', 'Gyro', 'Johnny', 'MrSmalls', 'Laxus', 'Gojo']}"> 
+
+    <button @click="alert(name[Math.floor(Math.random() * 10)])">Click for a Random Name</button>
+</div>
+
